@@ -1,0 +1,43 @@
+.ticker-table {
+  grid-column: 1/13;
+  grid-row: 2/5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 24px;
+}
+
+.ticker-card {
+  color: white;
+  padding: 24px;
+  position: relative;
+}
+
+.card-terakhir {
+  background: #2e2e47;
+  border-radius: 12px;
+}
+
+.card-low {
+  background: linear-gradient(
+    230deg,
+    rgba(241, 9, 180, 0.45) 0%,
+    rgba(150, 64, 237, 0.45) 100%
+  );
+  border-radius: 12px;
+}
+
+.card-high {
+  background: linear-gradient(
+    230deg,
+    rgba(254, 131, 9, 0.45) 0%,
+    rgba(235, 70, 96, 0.45) 100%
+  );
+  border-radius: 12px;
+}
+
+.ticker-card-number {
+  font-size: 3em;
+  position: absolute;
+  bottom: 48px;
+}

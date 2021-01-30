@@ -1,0 +1,19 @@
+.watermark-wrapper {
+  position: absolute;
+  z-index: 100;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.watermark {
+  font-weight: 100;
+  font-size: 0.5em;
+  color: rgb(163, 162, 162);
+  text-align: center;
+}
+
+a {
+  color: rgb(163, 162, 162);
+  margin-left: 4px;
+}
