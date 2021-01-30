@@ -20,13 +20,14 @@ class WrapperVolBtc extends Component {
 
   render() {
     const dataVolBTC = this.state.dataTicker.vol_btc;
+    const dataVolBTCdecimal = Number(`${dataVolBTC}`).toFixed(2);
     return (
       <div className="vol-wrapper">
         <div className="vol-title">
           <p id="voltitle">Volume 24 hours</p>
         </div>
         <div className="vol-text">
-          <p className="vol-number">{dataVolBTC}</p>
+          <p className="vol-number">{dataVolBTCdecimal}</p>
           <p>BTC</p>
         </div>
       </div>

@@ -23,11 +23,11 @@ class WrapperTicker extends Component {
     };
     const dataHigh = this.state.dataTicker.high;
     const dataHighFunc = numberWithCommas(`${dataHigh}`);
-
     const dataLow = this.state.dataTicker.low;
     const dataLowFunc = numberWithCommas(`${dataLow}`);
     const dataLast = this.state.dataTicker.last;
     const dataLastFunc = numberWithCommas(`${dataLast}`);
+
     return (
       <div className="ticker-wrapper">
         <div className="ticker-last ticker-item">

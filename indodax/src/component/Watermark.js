@@ -7,7 +7,9 @@ export class Watermark extends Component {
       <div className="watermark">
         <p>
           API by{" "}
-          <a href="https://indodax.com/market/BTCIDR">Indodax.com/market</a>{" "}
+          <a href="https://indodax.com/market/BTCIDR" target="blank">
+            Indodax.com/market
+          </a>{" "}
         </p>
         <p>layout by Nijiko Suryadikara</p>
       </div>

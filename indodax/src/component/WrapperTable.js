@@ -65,30 +65,34 @@ class WrapperTable extends Component {
       <div className="main-table-wrapper">
         <div className="table-group-sell table-group">
           <p className="table-title">Market Jual</p>
-          <div className="table-header">
-            <div className="table-row">
-              <p>Harga</p>
-              <p>BTC</p>
+          <div className="table-table">
+            <div className="table-header">
+              <div className="table-row">
+                <p>HARGA</p>
+                <p>BTC</p>
+              </div>
             </div>
-          </div>
-          <div className="table-wrapper">
-            <table className="table">
-              <tbody>{dataSell}</tbody>
-            </table>
+            <div className="table-wrapper" ID="scrollbar">
+              <table className="table">
+                <tbody>{dataSell}</tbody>
+              </table>
+            </div>
           </div>
         </div>
         <div className="table-group-sell table-group">
           <p className="table-title">Market Jual</p>
-          <div className="table-header">
-            <div className="table-row">
-              <p>Harga</p>
-              <p>BTC</p>
+          <div className="table-table">
+            <div className="table-header">
+              <div className="table-row">
+                <p>HARGA</p>
+                <p>BTC</p>
+              </div>
             </div>
-          </div>
-          <div className="table-wrapper">
-            <table className="table">
-              <tbody>{dataBuy}</tbody>
-            </table>
+            <div className="table-wrapper" ID="scrollbar">
+              <table className="table">
+                <tbody>{dataBuy}</tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
