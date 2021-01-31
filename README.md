@@ -1,4 +1,4 @@
-Latihan FrontEnd 4
+dLatihan FrontEnd 4
 Menggunakan React app, membuat layout website menampilkan data API dari bitcoin Indodax
 
 # Link to live site:
