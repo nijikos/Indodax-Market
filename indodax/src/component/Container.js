@@ -6,6 +6,8 @@ import Watermark from "./Watermark";
 import WrapperTable from "./WrapperTable";
 import WrapperTicker from "./WrapperTicker";
 import WrapperVolBtc from "./WrapperVolBtc";
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
 
 class Container extends Component {
   render() {
@@ -14,10 +16,15 @@ class Container extends Component {
         <div className="container-child">
           <Watermark />
           <Title />
-          <WrapperVolBtc />
-          <WrapperTicker />
-          <WrapperTable />
-          <Credits />
+          <Fade bottom>
+            <WrapperVolBtc />
+
+            <WrapperTicker />
+
+            <WrapperTable />
+
+            <Credits />
+          </Fade>
           {/* ========================= */}
         </div>
       </div>
